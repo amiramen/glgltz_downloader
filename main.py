@@ -15,8 +15,8 @@ TEMP_FILENAME_BEFORE_FFMPEG_EXTENTION = '.webm'
 TEMP_FILENAME_AFTER_FFMPEG_EXTENTION = '.mp3'
 FINAL_FILENAME_PATTERN = u"{song_name} - {artist_name}.mp3"
 
-#url = "http://glglz.co.il/1213-he/Galgalatz.aspx" # Heb playlist 
-url = "http://glglz.co.il/1215-he/Galgalatz.aspx" # Eng Playlist
+url = "http://glglz.co.il/1213-he/Galgalatz.aspx" # Heb playlist 
+#url = "http://glglz.co.il/1215-he/Galgalatz.aspx" # Eng Playlist
 DOWNLOAD_MP3_FROM_YOUTUBE_UTL_COMMAND_FORMAT = "youtube-dl --audio-format \"mp3\" -x {youtube_url} -o \"{filename}\"" # % yotube url
 
 
